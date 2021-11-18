@@ -1,3 +1,3 @@
 import {sumToString} from "./src/mild/mild_1.js";
 
-sumToString(3, 5);
+console.log(sumToString(3, 5));
