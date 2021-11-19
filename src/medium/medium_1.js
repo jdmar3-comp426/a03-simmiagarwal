@@ -24,11 +24,13 @@ export function getSum(array) {
  */
 export function getMedian(array) {
     array.sort();
+    console.log(array);
+    var index = array.length/2;
 
     if (array.length % 2){
-        return array[(array.length-1)/2];
+        return array[Math.floor(index)];
     } 
-    return (array[array.length/2] + array[(array.length-2)/2]) / 2;
+    return (array[index] + array[index-1]) / 2;
 }
 
 /**
