@@ -65,7 +65,7 @@ export function getStatistics(array) {
 
 }
 
-function getMean(array){
+export function getMean(array){
     return getSum(array)/array.length;
 }
 
