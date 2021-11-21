@@ -1,3 +1,9 @@
+// change line 4 in package.json from 
+// "type": "module",
+// to
+// "type": "commonjs",
+// to run locally. (former must be kept to run in autograder);
+
 // import * as mild1 from "./src/mild/mild_1.js";
 
 // console.log(mild1.sumToString(3, 5));
