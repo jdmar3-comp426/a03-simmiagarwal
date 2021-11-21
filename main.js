@@ -53,17 +53,39 @@
 // console.log(medium2.moreStats);
 
 
-import * as medium3 from "./src/medium/medium_3.js";
-import mpg_data from "./src/medium/data/mpg_data.js";
+// import * as medium3 from "./src/medium/medium_3.js";
+// import mpg_data from "./src/medium/data/mpg_data.js";
 
-console.log(medium3.searchHighPower(mpg_data, 200, 200));
-console.log(medium3.searchMpg(mpg_data, 16, 20));
-console.log(medium3.searchName(mpg_data, "auto"));
-console.log(medium3.searchByYear(mpg_data, [2018, 2019]));
+// console.log(medium3.searchHighPower(mpg_data, 200, 200));
+// console.log(medium3.searchMpg(mpg_data, 16, 20));
+// console.log(medium3.searchName(mpg_data, "auto"));
+// console.log(medium3.searchByYear(mpg_data, [2018, 2019]));
 
-// import * as spicy from "./src/spicy/spicy_9.js";
+import * as spicy from "./src/spicy/spicy_9.js";
 
-// console.log(spicy.
-// console.log(spicy.
-// console.log(spicy.
-// console.log(spicy.
+// console.log(spicy.repeat(array => array[0], 7, ["What's up", "Nope"]))
+// spicy.repeatDemo();
+
+// console.log(spicy.multiplyBy(3)(2));
+// console.log(spicy.tenTimes(6));
+// console.log(spicy.tenTimesFifty());
+
+// console.log(spicy.everyEven([1, 5, 1, 0, 1], x => x === 1));
+// console.log(spicy.everyEven([1, 1, 0, 1, 1], x => x === 1));
+
+// console.log(spicy.someEven([4, 3, 2, 1, 0], x => x === 3));
+// console.log(spicy.someEven([1, 0, 1, 0, 1], x => x === 0));
+// console.log(spicy.someEven([1, 1, 1, 1, 0], x => x === 0));
+// console.log(spicy.someEven([0, 0, 0, 0, 0], x => x === 0));
+
+// console.log(spicy.filter(['yes', 'nope', 'maybe', 'yellow'], x => x[0] === 'y'));
+// console.log(spicy.filter([1, 90, 5, 31], x => x % 2 === 1));
+
+// console.log(spicy.allEvensAreOdd([1, 2, 3, 4, 5, 6])); // true
+// console.log(spicy.allEvensAreOdd([1, 2, 3, 4, 6, 6])); // false
+
+// console.log(spicy.anEvenIsOdd([1, 2, 3, 4, 6, 6])); // true
+// console.log(spicy.anEvenIsOdd([2, 2, 4, 4, 6, 6])); // false
+
+// console.log(spicy.hasExactly([1, 2, 3], (number) => number % 2, 2)); // true
+// console.log(spicy.hasExactly([1, 2, 3], (number) => number % 2, 0)); // false
