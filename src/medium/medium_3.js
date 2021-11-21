@@ -48,7 +48,7 @@ export function searchMpg(car_data, minCity, minHighway) {
  * @returns {[]} array of cars
  */
 export function searchName(car_data, searchTerm) {
-
+    return car_data.filter(car => (car.id.toLowerCase().includes(searchTerm.toLowerCase()))).sort((a, b) => b.id - a.id);
 }
 
 
@@ -61,5 +61,5 @@ export function searchName(car_data, searchTerm) {
  * @returns {[]} an array of car objects
  */
 export function searchByYear(car_data, years) {
-
+    return car_data.filter(car => (car.year in years)).sort((a, b) => b.year - a.year);
 }
